@@ -5,8 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.course.code</groupId>
-    <artifactId>Chapter</artifactId>
+    <artifactId>Chapter5</artifactId>
     <version>1.0-SNAPSHOT</version>
+   <!--testng 依赖-->
+    <dependencies>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.13.1</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
