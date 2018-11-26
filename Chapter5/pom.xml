@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -6,8 +7,12 @@
 
     <groupId>com.course.code</groupId>
     <artifactId>Chapter5</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-   <!--testng 依赖-->
+    <modules>
+        <module>Chapter6</module>
+    </modules>
+    <!--testng 依赖-->
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
@@ -15,6 +20,5 @@
             <version>6.13.1</version>
         </dependency>
     </dependencies>
-
 
 </project>
