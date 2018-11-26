@@ -2,13 +2,22 @@ package com.course.testng.Suite;
 
 import com.sun.xml.internal.bind.v2.runtime.output.StAXExStreamWriterOutput;
 import org.omg.CORBA.ARG_OUT;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.*;
 
 //SuiteConfig里面写的是公共的配置，公共的方法
 public class SuiteConfig {
+
+
+//    @BeforeMethod
+//    public void beforeClass(){
+//        System.out.println("beforemethod");
+//    }
+//
+//    @AfterMethod
+//    public void afterClass(){
+//        System.out.println("aftermethod");
+//    }
+    //为什么加了这段运行没有结果，befourMether\befourClass都只能在有test注解下使用
 
     @BeforeSuite
     public void beforeSuite() {
@@ -17,6 +26,7 @@ public class SuiteConfig {
 
     @AfterSuite
     public void afterSuite() {
+
         System.out.println("after suite运行啦");
     }
 
@@ -29,4 +39,5 @@ public class SuiteConfig {
     public void afterTest() {
         System.out.println("afterTest");
     }
+
 }
