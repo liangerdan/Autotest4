@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Autotest4">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Chapter5/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
